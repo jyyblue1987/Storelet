@@ -1,0 +1,337 @@
+/*
+ *
+ *   STORELTE - Responsive Admin Theme
+ *   version 2.4
+ *
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 100;
+}
+body,
+html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url('../img/bg.jpg') no-repeat center center fixed;
+}
+.menu-icon {
+    width: 24px;
+}
+.clock {
+    float: left;
+    padding: 1em;
+    color: #777;
+    ;
+}
+.modal-header {
+    background-color: rgb(51, 122, 183);
+    color: white !important;
+}
+form .error {
+    color: #ff0000;
+}
+.login_box {
+    background: #f7f7f7;
+    border: 3px solid #F4F4F4;
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+.input_title {
+    color: rgba(164, 164, 164, 0.9);
+    padding-left: 3px;
+    margin-bottom: 2px;
+}
+hr {
+    width: 100%;
+}
+.welcome {
+    font-family: "myriad-pro", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+.profile-img {
+    width: 100px;
+    height: 96px;
+    margin: 0 auto 10px;
+    margin-top: 10%;
+    display: block;
+}
+.login_title {
+    font-family: "myriad-pro", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: rgba(164, 164, 164, 0.44);
+}
+.card-container.card {
+    max-width: 350px;
+}
+
+/*
+ * Card component
+ */
+
+.card {
+    background-color: #FFFFFF;
+    /* just in case there no content*/
+    padding: 1px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 15%x;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/*
+ * Form styles
+ */
+
+.profile-name-card {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+}
+.reauth-email {
+    display: block;
+    color: #404040;
+    line-height: 2;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin #username,
+.form-signin #password {
+    direction: ltr;
+    height: 44px;
+    font-size: 16px;
+}
+.form-signin input[type=text],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin button {
+    width: 100%;
+    display: block;
+    z-index: 1;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin input[type=text],
+.form-signin input[type=password] {
+    color: gray;
+}
+.form-signin .form-control:focus {
+    border-color: rgb(104, 145, 162);
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgb(104, 145, 162);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgb(104, 145, 162);
+}
+.red {
+    background: red;
+}
+.blue {
+    background: blue;
+}
+.no-padding-right {
+    padding-right: 0px !important;
+}
+.no-padding-left {
+    padding-left: 0px !important;
+}
+.register .register-summary {
+    margin-top: 5px;
+}
+.register .register-box {
+    background-color: #FFFFFF;
+    border-width: 1px;
+    border-color: #e8ebf1;
+    border-style: solid;
+    border-radius: 6px;
+    background-color: #ffffff;
+    margin-top: 5px;
+    /* box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05); */
+}
+.register .register-summary .item-tier,
+.register .register-summary .select-sales-person {
+    color: #67676C;
+    font-size: 16px;
+    font-weight: 300;
+    display: block;
+    padding: 5px 15px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.register .register-summary .item-tier span,
+.register .register-summary .select-sales-person span {
+    float: right;
+    color: #489ee7;
+    font-weight: 600;
+}
+.list-group {
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+.register .register-summary .global-discount-group {
+    padding: 5px 15px;
+    padding-top: 0px;
+}
+.register .register-summary .list-group-item {
+    line-height: 26px;
+    border-width: 0px;
+    padding: 1px 15px;
+}
+.list-group-item:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.register .register-summary .global-discount-group .key {
+    max-width: 55%;
+    display: inline-block;
+}
+.register .register-summary .sub-total {
+    height: 39px;
+    background-color: #f1ffec;
+    color: #67676C;
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 0px;
+    padding: 0px 15px;
+    margin-top: 0px;
+    line-height: 39px;
+}
+.register .register-summary .list-group-item {
+    line-height: 26px;
+    border-width: 0px;
+    padding: 1px 15px;
+}
+.register .register-summary .sub-total .value {
+    font-weight: 600;
+}
+.register .register-summary .value {
+    float: right;
+}
+.register .register-summary .amount-block {
+    height: 70px;
+    border-top: 1px #D0D3D8;
+    border-bottom: 1px #D0D3D8;
+}
+.register .register-summary .amount-block .total:nth-child(1) {
+    border-right: 1px #D0D3D8;
+}
+.register .register-summary .amount-block .total {
+    padding: 10px;
+    padding-top: 5px;
+    display: inline-block;
+    width: 49%;
+    height: 68px;
+}
+.register .register-summary .amount-block .total .side-heading {
+    padding-left: 5px;
+    color: #67676C;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.register .register-summary .amount-block .total .amount {
+    text-align: center;
+    color: #6FD64B;
+    font-size: 22px;
+    font-weight: 600;
+}
+.register .register-summary .amount-block .total {
+    padding: 10px;
+    padding-top: 5px;
+    display: inline-block;
+    width: 49%;
+    height: 68px;
+}
+.register .register-summary .amount-block .total.amount-due .amount {
+    color: #ff9e28;
+}
+.register .register-summary .add-payment-form.input-group {
+    width: 100%;
+}
+.register .register-summary .add-payment-form {
+    padding: 20px;
+}
+.register .register-summary .add-payment-form.input-group .add-input {
+    width: 100%;
+    background-color: #FFF;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+    float: left;
+    border: 1px solid #D7DCE5;
+    border-right-width: 0px !important;
+    box-shadow: none;
+    height: 39px;
+}
+.register .register-summary .add-payment-form.input-group .input-group-addon {
+    width: 38px !important;
+    height: 38px !important;
+    background-color: #88B7FF;
+    opacity: 1;
+    border: 0px solid #D7DCE5;
+    -moz-border-radius: 0px 3px 3px 0px;
+    -webkit-border-radius: 0px 3px 3px 0px;
+    border-radius: 0px 3px 3px 0px;
+    padding: 1px !important;
+}
+.register .register-summary .add-payment-form.input-group .input-group-addon > a {
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 22px;
+    padding: 8px 20px 10px 20px;
+}
+.gray-bg {
+    background-color: #2f4050;
+}
+.register .toolbar {
+    text-align: center;
+    padding: 20px;
+}
+.register .toolbar {
+    width: 100%;
+}
+
